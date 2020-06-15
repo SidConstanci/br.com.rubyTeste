@@ -1,7 +1,8 @@
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 
-capybara.configure do |config|
+
+Capybara.configure do |config|
     #selenium = firefox
     #selenium_chrome = chrome
     config.default_driver = :selenium_chrome

@@ -91,6 +91,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    webdriver (0.9.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.3.0)
@@ -103,6 +104,7 @@ DEPENDENCIES
   cucumber
   rspec
   selenium-webdriver
+  webdriver
 
 BUNDLED WITH
    2.1.4
