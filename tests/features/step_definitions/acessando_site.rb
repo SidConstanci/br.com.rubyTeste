@@ -1,5 +1,5 @@
+#Selenium::WebDriver::Chrome::Service.driver_path = "C:/Ruby25-x64/bin/chromedriver.exe"
 Quando('acesso a url') do
-    Selenium::WebDriver::Chrome.driver_path = "C://Developer//Drivers//chromedriver//chromedriver.exe"
     visit '/treinamento/home'
     sleep(5)
 end
